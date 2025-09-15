@@ -26,16 +26,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/finance/expenditure.js"
-    ],
-    "/finance/income": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/finance/income.js"
-    ],
-    "/hr": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/hr.js"
     ]
   },
   "ampFirstPages": []
