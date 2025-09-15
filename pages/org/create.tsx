@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import Layout from '@/components/Layout';
-import { api } from '@/src/lib/api';
+import Layout from '../../components/Layout';
+import { api } from '../../src/lib/api';
+
 
 const councils = ['HQ','GCC','DCC','LCC','LC'];
 

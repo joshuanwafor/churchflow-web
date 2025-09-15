@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import Layout from '@/components/Layout';
-import { api } from '@/src/lib/api';
+import { api } from '../../src/lib/api';
+import Layout from '../../components/Layout';
+
 
 export default function Expenditure(){
   const [items,setItems]=useState<any[]>([]); const [form,setForm]=useState<any>({organizationId:'',title:'',amount:'',beneficiaryName:'',beneficiaryAccount:'',beneficiaryBank:'',requiresCEL:false}); const [msg,setMsg]=useState('');

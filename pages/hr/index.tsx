@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import Layout from '@/components/Layout';
-import { api } from '@/src/lib/api';
+import { api } from '../../src/lib/api';
+import Layout from '../../components/Layout';
+
 
 export default function HR(){
   const [items,setItems]=useState<any[]>([]); const [form,setForm]=useState<any>({organizationId:'',firstName:'',lastName:'',roleTitle:'',startDate:'',contractType:'Full-time',salary:''}); const [msg,setMsg]=useState('');

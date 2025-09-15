@@ -1,4 +1,5 @@
-import Layout from '@/components/Layout';
+import Layout from "../components/Layout";
+
 export default function Dashboard(){ 
   return (<Layout>
     <div className='grid md:grid-cols-3 gap-4'>
